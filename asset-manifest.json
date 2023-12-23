@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/github-profile/static/css/main.e44530b2.css",
+    "main.js": "/github-profile/static/js/main.3499ea10.js",
+    "static/js/787.ffeb44d5.chunk.js": "/github-profile/static/js/787.ffeb44d5.chunk.js",
+    "static/media/hero-image-github-profile.png": "/github-profile/static/media/hero-image-github-profile.4d7f000d6e40f65e9038.png",
+    "static/media/Star.svg": "/github-profile/static/media/Star.c4f1cd984445355e1c0084d0022c22b3.svg",
+    "index.html": "/github-profile/index.html",
+    "static/media/Chield_alt.svg": "/github-profile/static/media/Chield_alt.07c868ef8fca81d27a61b1fadaf60501.svg",
+    "static/media/Nesting.svg": "/github-profile/static/media/Nesting.e8cd8b9799b4a65b4023e68254265023.svg",
+    "static/media/Search.svg": "/github-profile/static/media/Search.6dd42a0338174ced77eb26da6dabfe9a.svg",
+    "main.e44530b2.css.map": "/github-profile/static/css/main.e44530b2.css.map",
+    "main.3499ea10.js.map": "/github-profile/static/js/main.3499ea10.js.map",
+    "787.ffeb44d5.chunk.js.map": "/github-profile/static/js/787.ffeb44d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e44530b2.css",
+    "static/js/main.3499ea10.js"
+  ]
+}
