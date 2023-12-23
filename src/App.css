@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #97A3B6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input__container{
+    position: relative;
+    margin-top:  30px;
+    width: 430px;
+    padding: 14px;
+    background-color: #20293A;
+    border-radius: 8px;
+    border: #20293A;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+input {
+    width: 100%;
+    padding-left: 25px;
+    background-color: #20293A;
+    border: #20293A;
+    box-sizing: border-box;
+    outline: none;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px; 
+    height: auto;
   }
-  to {
-    transform: rotate(360deg);
+  .github__page{
+    display: flex;
+    flex-direction: column;  
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 90px;
+    padding: 35px ;
+    width: 75%;
+  }
+  .user__info{
+    display: flex;
+    align-items: flex-end;
+  
+    gap:20px;
+  }
+  .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .user__info-details{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  
+    align-items: center;
+    background-color: #111729;
+    border-radius: 16px;
+    padding: 2px 20px;
+    
+    margin-bottom: 10px;
+  }
+  .user__info img{
+    width: 85px;
+    height: 85px;
+    border: #20293A 6px solid;
+    border-radius: 16px;
+    margin-right:20px;
+  }
+  .user__info-details p:first-child{
+  color: #4A5567;
+  }
+  .user__info-details p:last-child{
+    color: #CDD5E0;
+  }
+
+  .vertical-line {
+    border-left: 1px solid #364153; 
+    height: 32px;
+
+  }
+  .github__page-desc{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+margin-bottom: 20px;
+
+  }
+  .github__page-desc p:first-child{
+    font-size: 2rem;
+     padding: 0;
+     margin-bottom: 0;
+  }
+  .github__page-desc p:last-child{
+    font-size: 1rem;
+   
+  }
+
+  .github__page-repo__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    
+  }
+  .github__repo{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #111729, #121931, #141a39, #181b41, #1d1b48);
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .github__repo-details{
+    display: flex;
+    gap: 20px;
+    margin-top: 0;
+  }
+  .github__repo-title{
+    font-size: 1.25rem;
+    color: #CDD5E0;
+    text-decoration: none;
+    margin-bottom: 0;
+
+  }
+  .github__repo-title:visited{
+    color: #CDD5E0;
+  }
+
+ 
+  .detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+  .viewall{
+    cursor: pointer;
+    align-self: center;
+    padding: 30px;
+  }
+@media screen and (max-width:640px) {
+  .github__page-repo__wrapper{
+  
+    grid-template-columns: 1fr;
+   
+    
+  }
+  .wrapper{
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .user__info{
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 }
